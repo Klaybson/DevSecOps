@@ -13,7 +13,7 @@ pipeline{
         }
         stage ('step3'){
             steps {
-                echo `hostname`
+                echo 'steps3'
             }
         }
     }
