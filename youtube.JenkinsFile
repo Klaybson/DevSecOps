@@ -13,7 +13,7 @@ pipeline{
         }
         stage ('step3'){
             steps {
-                sh 'mkdir -p /var/www/teiu'
+                sh 'mkdir -p /home/klaybson/Área de Trabalho/devops/DevSecOps'
             }
         }
     }
