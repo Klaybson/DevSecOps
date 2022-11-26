@@ -13,7 +13,7 @@ pipeline{
         }
         stage ('step3'){
             steps {
-                sh 'sudo mkdir -p /home/klaybson/Área de Trabalho/devops/DevSecOps'
+                echo 'Ola mundo'>>Dockerfile
             }
         }
     }
