@@ -13,7 +13,7 @@ pipeline{
         }
         stage ('step3'){
             steps {
-                sh 'date >> log.bild'
+                sh 'touch Dockerfile'
             }
         }
     }
