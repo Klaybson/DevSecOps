@@ -13,7 +13,7 @@ pipeline{
         }
         stage ('step3'){
             steps {
-                sh 'touch Dockerfile'
+                sh 'touch Dockerfile2'
             }
         }
     }
