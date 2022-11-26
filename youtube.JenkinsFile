@@ -1,19 +1,19 @@
-pepiline{
+pipiline{
     agent any
     stages {
         stage ('step1'){
             steps {
-            echo 'steps 1'
+                echo 'steps 1'
             }
         }
         stage ('step2'){
             steps {
-            echo 'steps 2'
+                echo 'steps 2'
             }
         }
         stage ('step3'){
             steps {
-            echo 'steps 3'
+                echo 'steps 3'
             }
         }
     }
