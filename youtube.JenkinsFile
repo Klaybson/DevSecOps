@@ -13,7 +13,7 @@ pipeline{
         }
         stage ('step3'){
             steps {
-                echo 'steps3'
+                sudo docker ps
             }
         }
     }
