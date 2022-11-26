@@ -13,7 +13,7 @@ pipeline{
         }
         stage ('step3'){
             steps {
-                echo 'Ola mundo'>>Dockerfile
+                echo 'Ola mundo1'
             }
         }
     }
