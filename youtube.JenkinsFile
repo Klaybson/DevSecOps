@@ -6,6 +6,6 @@ node {
         echo 'script 2'
     }
     stage ('step3'){
-        echo 'script 4'
+        echo 'script 3'
     }
 }
