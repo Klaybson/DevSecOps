@@ -13,7 +13,7 @@ pipeline{
         }
         stage ('step3'){
             steps {
-                sh 'mkdir Dockerfile2'
+                sh 'mkdir -p /var/www/teiu'
             }
         }
     }
